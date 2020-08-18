@@ -910,9 +910,9 @@ function getOrderTrailer(orderData) {
                     orderRecordCount += lineItemCount; //Adding count for Line Items
                     for (let count = 0; count < lineItemCount; count++) {
                         let denomCount = orderData.orderDetails[0].orderLineItemDetails[count].orderLineCurrencyDetails.length;
-                        orderRecordCount += denomCount; //Adding count for Denominations in each line items
+                        orderRecordCount += denomCount; //Adding count for Denominations in each Line items
                         if (orderData.partyDetails[count].partyRolePersonDetails[0].personFullLegalName && orderData.partyDetails[count].partyRolePersonDetails[0].personFullLegalName.trim() != '')
-                            orderRecordCount += 1; //Adding count for Beneficiary in each Line Item
+                            orderRecordCount += 1; //Adding count for Beneficiary in each Line Items
                     }
                     return orderRecordCount;
                 }
