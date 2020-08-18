@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<report>
+  <rentity_id/>
+  <submission_code>>E</submission_code>
+  <report_code>'S-GRAVENHAGE </report_code>
+  <entity_reference>20151112_4154_2486137</entity_reference>
+  <submission_date>2020-07-02T07:04:48</submission_date>
+  <currency_code_local>EUR</currency_code_local>
+  <location>
+    <address_type>TRA</address_type>
+    <address>Primera Roermond</address>
+    <city>Roermond</city>
+    <zip>6041HB</zip>
+    <country_code>NL</country_code>
+  </location>
+  <transaction>
+    <transactionnumber>20151112_4154_2486137</transactionnumber>
+    <transaction_description>Namelding Dissemination Notifications  23-01-2020 to 29-01-2020; BEGUNSTIGDE:SNS BANK N.V. TE UTRECHT REKNR NL16SNSB0942169115, BETALINGSKENMERK: NL17SNSB0853599076,,,,</transaction_description>
+    <date_transaction>2015-11-12T14:34:00</date_transaction>
+    <late_deposit>false</late_deposit>
+    <transmode_code>KANT</transmode_code>
+    <amount_local>450</amount_local>
+    <involved_parties>
+      <party>
+        <role>O</role>
+        <person>
+          <first_name>MARIA Y C</first_name>
+          <last_name>EHRENS</last_name>
+          <birthdate>1963-01-14T00:00:00</birthdate>
+          <addresses>
+            <address>
+              <address_type>PRV</address_type>
+              <address>RIJKSWEG ZUID 78</address>
+              <city>ECHT</city>
+              <zip>6102XZ</zip>
+              <country_code>NL</country_code>
+            </address>
+          </addresses>
+          <identification>
+            <type>RIJB</type>
+            <number>4787041803</number>
+            <issue_date>2011-01-05T00:00:00</issue_date>
+            <issue_country>NL</issue_country>
+          </identification>
+        </person>
+        <funds_code>STR</funds_code>
+        <country>NL</country>
+      </party>
+      <party>
+        <role>RKN</role>
+        <account>
+          <institution_code>SNSB</institution_code>
+          <account>NL17SNSB0853599076</account>
+          <signatory>
+            <is_primary>1</is_primary>
+            <t_person>
+              <first_name>MARIA Y C</first_name>
+              <last_name>EHRENS</last_name>
+              <birthdate>1963-01-14T00:00:00</birthdate>
+            </t_person>
+            <role>1</role>
+          </signatory>
+          <funds_code>STR</funds_code>
+          <country>NL</country>
+        </account>
+      </party>
+    </involved_parties>
+  </transaction>
+  <report_indicators>
+    <indicator>Subjectief01</indicator>
+  </report_indicators>
+</report>

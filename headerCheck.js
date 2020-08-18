@@ -1,0 +1,4 @@
+let header = 'Werkmij,Transactienummer,Transactieplaats,Transactielocatie,Transactie ZIP,Transactiedatum,Transactietijd,Transactiestadium,Indicator,Funds Code,Valutacode,Transactiebedrag,ValutaCode 2,ValutaBedrag 2,Foreign Exchange Rate,Subjecttype,Naam Subject 1,Voornamen Subject 1,Adres Subject 1,Huisnummer,Huisnummertoevoeging,Postcode Subject 1,Plaats Subject 1,Land Subject 1,Geslacht Subject 1,Geboortedatum Subject 1,Geboorteplaats Subject 1,Nationaliteit Subject 1,Soort id Subject 1,Id Nummer Subject 1,Uitgiftedatum id Subject 1,Uitgifteplaats id Subject 1,Situatiebeschrijving,Transaction Type,XML Naam,Travelex transactionnumber XML,Confirmed or Rejected by FIU';
+header = header.replace(/\s/g, '');
+header = header.toUpperCase();
+console.log(header);

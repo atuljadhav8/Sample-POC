@@ -1,0 +1,39 @@
+{
+  "name": "middleware-email-sender",
+  "version": "1.0.0",
+  "description": "Email Sending",
+  "main": "Email.js",
+  "files": [
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://travelexct.jfrog.io/travelexct/api/npm/travelex/"
+  },
+  "author": "Atul Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "aws-sdk": "^2.523.0",
+    "axios": "^0.19.2",
+    "date-and-time": "^0.11.0",
+    "diff": "^4.0.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "find": "^0.3.0",
+    "json2csv": "^4.5.4",
+    "jsonpath": "^1.0.2",
+    "moment-timezone": "^0.5.28",
+    "msnodesqlv8": "^0.8.6",
+    "mssql": "^6.0.1",
+    "nodemailer": "^6.3.0",
+    "object-mapper": "^6.2.0",
+    "qs": "^6.9.4",
+    "schema-validator": "git+https://github.com/travelex/schema-validator.git",
+    "x2js": "^3.4.0",
+    "xlsx": "^0.15.4",
+    "xml-formatter": "^2.1.2"
+  }
+}

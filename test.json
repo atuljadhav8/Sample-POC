@@ -1,0 +1,609 @@
+{
+    "documentDetails": {
+        "documentHeader": {
+            "documentType": "1",
+            "gatewayId": "COL101",
+            "gatewayControlSequenceNumber": null,
+            "recordType": null,
+            "corporateId": null,
+            "datetimeDocCreated": "10AUG2020112233",
+            "bookCurrency": "USD",
+            "documentHeaderAdditionalDetails": [
+                {
+                    "addtionalField": null,
+                    "additionalFieldValue": null
+                }
+            ]
+        },
+        "documentTrailer": {
+            "documentRecordCount": 2,
+            "checkSum": null,
+            "documentTrailerAdditionalDetails": [
+                {
+                    "addtionalField": null,
+                    "additionalFieldValue": null
+                }
+            ]
+        }
+    },
+    "partyDetails": [
+        {
+            "partyId": "IBCBANK",
+            "partyKeySource": "COL",
+            "partyRoleCode": "1",
+            "partyRoleCodeDescription": null,
+            "partyInRoleStartDate": null,
+            "partyInRoleEndDate": null,
+            "partyRolePersonDetails": [
+                {
+                    "personDateOfBirth": null,
+                    "personNameId": null,
+                    "personFullLegalName": "John Cena",
+                    "personTitleCode": null,
+                    "personTitleDescription": null,
+                    "personFirstName": null,
+                    "personMiddleName": null,
+                    "personFamilyName": null,
+                    "personMaidenName": null,
+                    "personNameTypeCode": null,
+                    "personNameTypeDescription": null,
+                    "personNameStartDate": null,
+                    "personNameEndDate": null,
+                    "partyRolePersonIdentityDetails": [
+                        {
+                            "personIdentifierId": null,
+                            "personIdentificationNumber": null,
+                            "personIdetificationTypeId": null,
+                            "personIdetificationTypeDescription": null,
+                            "personIdentifierDateOfIssuance": null,
+                            "personIdentifierExpirationDate": null,
+                            "personIdetificationTypePhotoIdIndicator": null,
+                            "personIdentificationIssuanceCountry": null,
+                            "personIdentificationIssuanceState": null,
+                            "personalIdentificationIssuanceCity": null,
+                            "ifPersonSecondaryIdentifierCardSelected": null
+                        }
+                    ],
+                    "partyRolePersonKYCInformation": [
+                        {
+                            "customerInformationPartnerComment": null,
+                            "customerInfromationRecieversDetails": null,
+                            "CustomerInformationKYCRefId": null,
+                            "CustomerInformationKYCRefValue": null,
+                            "customerInformationSecurityQuestion": [
+                                {
+                                    "customerInformationSecurityQuestionId": null,
+                                    "customerInformationSecurityQuestionValue": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "partyRoleOrganization": [
+                {
+                    "organisationRegistrationCountryCode": null,
+                    "organisationRegistrationCountryName": null,
+                    "organisationBusinessUnitCode": null,
+                    "organisationBusinessUnitName": null,
+                    "organisationGeoRegionCode": null,
+                    "organisationGeoRegionName": null,
+                    "organisationIndustrySectorClassificationCode": null,
+                    "organisationNameId": null,
+                    "organisationNameFull": null,
+                    "organisationNameShort": null,
+                    "organisationNameTypeCode": null,
+                    "organisationNameStartdate": null,
+                    "organisationNameEnddate": null,
+                    "partyRoleOrganizationIdentityDetails": [
+                        {
+                            "organisationIdentifierId": null,
+                            "organisationIdentificationNumber": null,
+                            "organisationIdetificationTypeId": null,
+                            "organisationIdetificationTypeDescription": null,
+                            "organisationNameTypeCode": null,
+                            "organisationNameTypeDescription": null,
+                            "organisationIdentifierIssuingGovernanceId": null,
+                            "organisationIdentifierIssuingGovernanceName": null,
+                            "organisationIdentifierDateOfIssuance": null,
+                            "organisationIdentifierExpirationdate": null
+                        }
+                    ]
+                }
+            ],
+            "partyRoleBranch": [
+                {
+                    "branchRegistrationCountryCode": null,
+                    "branchRegistrationCountryName": null,
+                    "brachBusinessUnitCode": null,
+                    "branchBusinessUnitName": null,
+                    "branchGeoRegionCode": null,
+                    "branchGeoRegionName": null,
+                    "isBranchParent": null,
+                    "brachParentPartyid": null,
+                    "branchParentPartyName": null,
+                    "branchProfitCentreCode": null,
+                    "branchProfitCenterDescription": null,
+                    "branchCostCentreCode": null,
+                    "branchCostCenterDescription": null,
+                    "branchNameId": null,
+                    "branchNameFull": null,
+                    "branchNameShort": null,
+                    "branchNameTypeCode": null,
+                    "branchNameTypeDescription": null,
+                    "branchNameStartDate": null,
+                    "branchNameEndDate": null,
+                    "partyRoleBranchIdentityDetails": [
+                        {
+                            "branchIdentifierId": null,
+                            "branchIdentificationNumber": null,
+                            "branchIdetificationTypeId": null,
+                            "branchIdetificationTypeDescription": null,
+                            "branchNameTypeCode": null,
+                            "branchNameTypeDescription": null,
+                            "branchIdentifierIssuingGovernanceId": null,
+                            "branchIdentifierIssuingGovernanceName": null,
+                            "branchIdentifierdateOfIssuance": null,
+                            "branchIdentifierExpirationDate": null
+                        }
+                    ]
+                }
+            ],
+            "partyAccreditation": [
+                {
+                    "accreditationTypeId": null,
+                    "accreditationTypeName": null
+                }
+            ],
+            "partyContactDetails": [
+                {
+                    "partyId": null,
+                    "partyContactStartdate": null,
+                    "partyContactEnddate": null,
+                    "partyAddressTypeId": null,
+                    "partyAddressTypeIdDescription": "01",
+                    "partAddressSectionType": null,
+                    "addressLine1": "244 Main St",
+                    "addressLine2": null,
+                    "addressLine3": null,
+                    "addressLine4": null,
+                    "city": "Great Barrington",
+                    "stateOrProvince": "MA",
+                    "postalOrZipCode": "01230",
+                    "countryCode": "USA",
+                    "countryCodeDescription": null,
+                    "telephonyContactTypeId": null,
+                    "telephonyContactTypeIdescription": null,
+                    "telephonyContactNumber": null,
+                    "electronicContactTypeId": null,
+                    "electronicContactTypeDescription": "4136443520",
+                    "electronicContactValue": null
+                }
+            ],
+            "partyAccountDetails": [
+                {
+                    "accountId": null,
+                    "accountnumber": null,
+                    "accountActivationDate": null,
+                    "accountExpirationDate": null,
+                    "accountTypeId": null,
+                    "accountProviderId": null,
+                    "accountTypeDescription": null,
+                    "accountAgreementProviderId": null,
+                    "accountServiceAgreementId": null,
+                    "accountServiceAgreementActivationDate": null,
+                    "accountServiceAgreementExpirationDate": null,
+                    "partyAccountHolderDetails": [
+                        {
+                            "accountHolderId": null,
+                            "accountHolderTypeId": null,
+                            "accountHolderTypeDescription": null,
+                            "accountHolderCategoryId": null,
+                            "accountHolderCategoryDescription": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sourceBasic": {
+        "businessUnit": null,
+        "organization": null,
+        "sourceSystem": "COL"
+    },
+    "sourceExtended": {
+        "applicationId": null,
+        "userId": "Dinorah Garcia",
+        "userFirstName": null,
+        "userLastName": null,
+        "userAddInfo": null,
+        "batchId": null,
+        "batchAddInfo": null,
+        "batchRef": null
+    },
+    "orderDetails": [
+        {
+            "orderId": null,
+            "orderVersion": null,
+            "orderTenantCD": null,
+            "orderWalletId": null,
+            "orderTrackNum": "USDB7EB417",
+            "orderReferenceCode": null,
+            "orderExternalReferenceCode": null,
+            "orderCreationDate": "10AUG2020112233",
+            "orderRequiredByDateTime": null,
+            "orderTypeCode": "STK",
+            "orderTypeDescription": null,
+            "orderTypeReference": null,
+            "orderBillingCurrency": null,
+            "orderFormReference": null,
+            "orderFaultAllocationCode": null,
+            "orderAuthorizationRefCode": null,
+            "iforderLargeTradeIndicator": null,
+            "ifOrderWholesaleIndicator": null,
+            "orderRemark": null,
+            "additionalFields": [
+                {
+                    "fieldName": "SOURCE_ORDER_ID",
+                    "fieldValue": "192853015"
+                },
+				{
+                    "fieldName": "FIRSTNAME",
+                    "fieldValue": "Daniel"
+                },
+				{
+                    "fieldName": "LASTNAME",
+                    "fieldValue": "Scott"
+                }
+            ],
+            "productDetails": [
+                {
+                    "productId": null,
+                    "productDescription": null,
+                    "productTypeId": null,
+                    "productTyeDescription": "FC",
+                    "productIssuerId": null,
+                    "productIssuerDetails": null
+                }
+            ],
+            "orderWholesale": [
+                {
+                    "orderBuyWholeSaleMargin": null,
+                    "oderSellWholeSaleMargin": null
+                }
+            ],
+            "OrderMarketingDetails": [
+                {
+                    "ifOrderEligibleForRewardPoints": null,
+                    "orderRewardPoints": null,
+                    "OrderMessageId": null,
+                    "orderMessagedetails": null
+                }
+            ],
+            "orderCapturingDetails": [
+                {
+                    "OrderChannelCode": null,
+                    "OrderChannelCodeDescription": null,
+                    "OrderCapturingApplicationCode": null,
+                    "OrderCapturingApplicationCodeDescription": null,
+                    "OrderCapturedByPersonID": null,
+                    "OrderCapturingByPersonName": null
+                }
+            ],
+            "orderStatusDetails": [
+                {
+                    "orderStatusCode": "000000",
+                    "orderStatusCodeDescription": null,
+                    "orderStatusLastUpdatedDate": null,
+                    "orderStatusLastUpdatedatedBy": null,
+                    "orderCancellationDate": null,
+                    "orderCancellationCode": null,
+                    "orderCacellationDescription": null,
+                    "orderReversalDate": null,
+                    "ordeReversalNote": null,
+                    "orderReversalOrginalOrderReference": null
+                }
+            ],
+            "orderDeliverylocationDetails": [
+                {
+                    "orderDeliveryOptionCode": "C01",
+                    "orderDeliveryOptionValue": null,
+                    "orderDeliveryLocationType": "Delivery location(company)",
+                    "orderDeliveryLocationTypeValue": "31466"
+                },
+				{
+                    "orderDeliveryOptionCode": "C01",
+                    "orderDeliveryOptionValue": null,
+                    "orderDeliveryLocationType": "Delivery location(Travelex)",
+                    "orderDeliveryLocationTypeValue": null
+                }
+            ],
+            "orderPayementDetails": [
+                {
+                    "orderPaymentTypeId": "AC",
+                    "orderPayementTypeDescription": null,
+                    "orderPaymentStatusCode": "PFU",
+                    "orderPaymentStatusCodeDescription": null,
+                    "orderPaymentReference": null,
+                    "orderPaymentAmount": null
+                }
+            ],
+            "orderSettlement": [
+                {
+                    "settledNumber": null,
+                    "isSettled": null,
+                    "settledAmt": null,
+                    "settledInCurrency": null,
+                    "settledDueAmt": null,
+                    "remark": null,
+                    "settlementRef": null,
+                    "settlementDate": null,
+                    "settlementModeAttributes": [
+                        {
+                            "settlementMode": "1",
+                            "settlementModeType": null,
+                            "settlementModeTypeReference": null,
+                            "settlementModeTypeIssuer": null,
+                            "settlementModeHolderDetails": null,
+                            "settlementModeDenomination": null,
+                            "settlementCardStartDate": null,
+                            "settlementCardExpiryDate": null,
+                            "settlementCardCV2": null,
+                            "settlementcardAuthorizationCode": null,
+                            "ifSettlementCardLoyaltyCard": null,
+                            "setllementCardRewardPoints": null,
+                            "settelementCardMerchantId": null,
+                            "messageType": null,
+                            "responseCode": null
+                        }
+                    ],
+                    "settlementBankDetails": [
+                        {
+                            "bankAccountName": null,
+                            "bankAccountnumber": null,
+                            "bankAccountSortCode": null,
+                            "bankAccountFriendlyName": null
+                        }
+                    ],
+                    "additionalFields": [
+                        {
+                            "fieldName": null,
+                            "fieldValue": null
+                        }
+                    ]
+                }
+            ],
+            "orderFullfilmentDetails": [
+                {
+                    "orderFulfillmentTypeCode": null,
+                    "orderFulfillmentTypeCodeDescription": null,
+                    "orderFullfilmenentSystem": null,
+                    "orderFulFillmentChannelId": null,
+                    "orderFulfillmentDate": "10AUG2020"
+                }
+            ],
+            "orderAccountDetails": [
+                {
+                    "accountId": null,
+                    "accountNumber": null,
+                    "accountTypeID": null,
+                    "accountProviderID": null,
+                    "accountAgreementProviderID": null,
+                    "accountHolderId": null,
+                    "accountHolderTypeId": null,
+                    "accountHolderCategoryId": null
+                }
+            ],
+            "orderRemittanceDetails": [
+                {
+                    "remitterPartyID": null,
+                    "remitterPartyType": null,
+                    "beneficieryPartyID": null,
+                    "beneficieryPartyType": null
+                }
+            ],
+            "orderPricing": [
+                {
+                    "basic": [
+                        {
+                            "foreignAmt": "108750.00",
+                            "orderDueAmt": null,
+                            "denominationPref": null,
+                            "denomDetails": null,
+                            "localAmt": null,
+                            "localDue": null,
+                            "additionalFields": [
+                                {
+                                    "fieldName": null,
+                                    "fieldValue": null
+                                }
+                            ]
+                        }
+                    ],
+                    "rate": [
+                        {
+                            "rateType": null,
+                            "fxRate": "0.04512916",
+                            "appliedRate": null,
+                            "remark": null,
+                            "additionalFields": [
+                                {
+                                    "fieldName": null,
+                                    "fieldValue": null
+                                }
+                            ]
+                        }
+                    ],
+                    "fee": [
+                        {
+                            "isApplied": true,
+                            "feeDetails": [
+                                {
+                                    "feeCode": null,
+                                    "feeType": "Card Handling Fee",
+                                    "feeAmt": 10,
+                                    "appliedFeeAmt": null,
+                                    "remark": null,
+                                    "additionalFields": [
+                                        {
+                                            "fieldName": null,
+                                            "fieldValue": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "charge": [
+                        {
+                            "isApplied": true,
+                            "chargeDetails": [
+                                {
+                                    "chargeCode": null,
+                                    "chargeType": "Delivery charge",
+                                    "chargeAmt": "10.00",
+                                    "appliedChargeAmt": null,
+                                    "remark": null,
+                                    "additionalFields": [
+                                        {
+                                            "fieldName": null,
+                                            "fieldValue": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "commission": [
+                        {
+                            "isApplied": true,
+                            "commDetails": [
+                                {
+                                    "commCode": null,
+                                    "commRate": null,
+                                    "commAmt": "0.00",
+                                    "appliedCommAmt": null,
+                                    "remark": null,
+                                    "additionalFields": [
+                                        {
+                                            "fieldName": null,
+                                            "fieldValue": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "tax": [
+                        {
+                            "isApplied": null,
+                            "taxDetails": [
+                                {
+                                    "taxCode": null,
+                                    "taxRate": null,
+                                    "taxType": null,
+                                    "taxAmt": null,
+                                    "appliedTaxAmt": null,
+                                    "remark": null,
+                                    "additionalFields": [
+                                        {
+                                            "fieldName": null,
+                                            "fieldValue": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "adjustment": [
+                        {
+                            "isApplied": null,
+                            "adjustmentDetails": [
+                                {
+                                    "adjustmentType": null,
+                                    "adjustmentdate": null,
+                                    "remark": null,
+                                    "additionalFields": [
+                                        {
+                                            "fieldName": null,
+                                            "fieldValue": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "orderLargeTrad": [
+                {
+                    "orderLargeTradePromptID": null,
+                    "orderLargeTradePromptValue": null,
+                    "orderLargeTradeNotes": null
+                }
+            ],
+            "orderLineItemDetails": [
+                {
+                    "orderLineproductId": null,
+                    "orderLineproductDescription": null,
+                    "orderLineBookCurrencyValue": "4907.80",
+                    "orderLineDomesticCurrencyCode": "USD",
+                    "orderLineDomesticCurrencyValue": null,
+                    "orderLineCommissionDetails": [
+                        {
+                            "orderCommissionId": null,
+                            "orderCommissionTypeCode": null,
+                            "orderCommissionTypeCodeDescription": null,
+                            "orderCommissionTypeValue": null,
+                            "orderCommissionAmount": "0.00"
+                        }
+                    ],
+                    "orderLinePromotionDetails": [
+                        {
+                            "orderLinePromotionID": null,
+                            "orderLinePromotionCode": null,
+                            "orderLinePromotionValue": null,
+                            "orderLinePromotionDescription": null
+                        }
+                    ],
+                    "orderLineCurrencyDetails": [
+                        {
+                            "denominationSizeRequestId": "X",
+                            "denominationSizeRequestName": null,
+                            "denominationName": null,
+                            "denominationValue": "20",
+                            "denominationQuantity": "10",
+                            "denominationStartdate": null,
+                            "denominationEnddate": null,
+                            "currencyISOCode": "MXN",
+                            "currencyISONumber": null,
+                            "currencyName": null,
+                            "currencySign": null,
+                            "currencySignPosition": null,
+                            "currencyTolaranceAmt": null,
+                            "banknoteQualityId": null,
+                            "banknoteQualityDescription": null
+                        },
+						{
+                            "denominationSizeRequestId": "X",
+                            "denominationSizeRequestName": null,
+                            "denominationName": null,
+                            "denominationValue": "50",
+                            "denominationQuantity": "4",
+                            "denominationStartdate": null,
+                            "denominationEnddate": null,
+                            "currencyISOCode": "MXN",
+                            "currencyISONumber": null,
+                            "currencyName": null,
+                            "currencySign": null,
+                            "currencySignPosition": null,
+                            "currencyTolaranceAmt": null,
+                            "banknoteQualityId": null,
+                            "banknoteQualityDescription": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
