@@ -1,0 +1,1618 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "Record_Type",
+                "title": "Record_Type",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Agent_surrogate",
+                "title": "Agent_surrogate",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Direction",
+                "title": "Direction",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "MTCN",
+                "title": "MTCN",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Reporting_Date",
+                "title": "Reporting_Date",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_product_code",
+                "title": "Transaction_product_code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_currency",
+                "title": "Transaction_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Country_code_of_the_recording_country",
+                "title": "Country_code_of_the_recording_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "country_code_of_the_pay_out_country",
+                "title": "country_code_of_the_pay_out_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Pay_out_rate_for_the_recording_country",
+                "title": "Pay_out_rate_for_the_recording_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Pay_out_rate_for_the_pay_out_country",
+                "title": "Pay_out_rate_for_the_pay_out_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Settlement_rate_for_the_recording_country",
+                "title": "Settlement_rate_for_the_recording_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Settlement_rate_for_the_pay_out_country",
+                "title": "Settlement_rate_for_the_pay_out_country",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Agent_account_number",
+                "title": "Agent_account_number",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Intra_agent_account_number",
+                "title": "Intra_agent_account_number",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Intra_agent_account_indicator",
+                "title": "Intra_agent_account_indicator",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Product_Code",
+                "title": "Product_Code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recording_date",
+                "title": "Recording_date",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Pay_out_date",
+                "title": "Pay_out_date",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Fixed_indicator",
+                "title": "Fixed_indicator",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Fixed_Settlement_rate",
+                "title": "Fixed_Settlement_rate",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recording_currency_code",
+                "title": "Recording_currency_code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Pay_out_currency_code",
+                "title": "Pay_out_currency_code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Status",
+                "title": "Status",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_principal_in_USD",
+                "title": "Recorded_principal_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_charges_in_USD",
+                "title": "Recorded_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_principal_in_USD",
+                "title": "Clear_principal_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_charges_in_USD",
+                "title": "Clear_of_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_FX_in_USD",
+                "title": "Clear_of_FX_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_principal_in_recorded_currency",
+                "title": "Recorded_principal_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_charges_in_recorded_currency",
+                "title": "Recorded_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_principal_in_recorded_currency",
+                "title": "Clear_principal_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_charges_in_recorded_currency",
+                "title": "Clear_of_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_FX_in_recorded_currency",
+                "title": "Clear_of_FX_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_principal_in_local_currency",
+                "title": "Recorded_principal_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_charges_in_local_currency",
+                "title": "Recorded_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_principal_in_local_currency",
+                "title": "Clear_principal_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_charges_in_local_currency",
+                "title": "Clear_of_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_FX_in_local_currency",
+                "title": "Clear_of_FX_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_principal_in_pay_out_currency",
+                "title": "Recorded_principal_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Recorded_charges_in_pay_out_currency",
+                "title": "Recorded_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_principal_in_pay_out_currency",
+                "title": "Clear_principal_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_charges_in_pay_out_currency",
+                "title": "Clear_of_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Clear_of_FX_in_pay_out_currency",
+                "title": "Clear_of_FX_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Total_discount_premium",
+                "title": "Total_discount_premium",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_log_number",
+                "title": "Transaction_adjustment_log_number",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_sequence_number",
+                "title": "Transaction_adjustment_sequence_number",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_re_input_MTCN",
+                "title": "Transaction_adjustment_re_input_MTCN",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_original_recording_date",
+                "title": "Transaction_adjustment_original_recording_date",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_original_pay_out_date",
+                "title": "Transaction_adjustment_original_pay_out_date",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_type_code",
+                "title": "Transaction_adjustment_type_code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_adjustment_reason_code",
+                "title": "Transaction_adjustment_reason_code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_recording_hour",
+                "title": "Transaction_recording_hour",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_recording_minutes",
+                "title": "Transaction_recording_minutes",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_pay_out_hour",
+                "title": "Transaction_pay_out_hour",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Transaction_pay_out_minutes",
+                "title": "Transaction_pay_out_minutes",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Basic_charges_in_USD",
+                "title": "Basic_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Delivery_charges_in_USD",
+                "title": "Delivery_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Message_charges_in_USD",
+                "title": "Message_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Phone_notification_charges_in_USD",
+                "title": "Phone_notification_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Credit_card_charges_in_USD",
+                "title": "Credit_card_charges_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Country_surcharge_in_USD",
+                "title": "Country_surcharge_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "State_tax_in_USD",
+                "title": "State_tax_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "City_tax_in_USD",
+                "title": "City_tax_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Municipal_tax_in_USD",
+                "title": "Municipal_tax_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Total_tax_in_USD",
+                "title": "Total_tax_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Basic_charges_in_recorded_currency",
+                "title": "Basic_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Delivery_charges_in_recorded_currency",
+                "title": "Delivery_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Message_charges_in_recorded_currency",
+                "title": "Message_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Phone_notification_charges_in_recorded_currency",
+                "title": "Phone_notification_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Credit_card_charges_in_recorded_currency",
+                "title": "Credit_card_charges_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Country_surcharge_in_recorded_currency",
+                "title": "Country_surcharge_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "State_tax_in_recorded_currency",
+                "title": "State_tax_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "City_tax_in_recorded_currency",
+                "title": "City_tax_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Municipal_tax_in_recorded_currency",
+                "title": "Municipal_tax_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Total_tax_in_recorded_currency",
+                "title": "Total_tax_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Basic_charges_in_local_currency",
+                "title": "Basic_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Delivery_charges_in_local_currency",
+                "title": "Delivery_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Message_charges_in_local_currency",
+                "title": "Message_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Phone_notification_charges_in_local_currency",
+                "title": "Phone_notification_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Credit_card_charges_in_local_currency",
+                "title": "Credit_card_charges_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Country_surcharge_in_local_currency",
+                "title": "Country_surcharge_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "State_tax_in_local_currency",
+                "title": "State_tax_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "City_tax_in_local_currency",
+                "title": "City_tax_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Municipal_tax_in_local_currency",
+                "title": "Municipal_tax_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Total_tax_in_local_currency",
+                "title": "Total_tax_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Basic_charges_in_pay_out_currency",
+                "title": "Basic_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Delivery_charges_in_pay_out_currency",
+                "title": "Delivery_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Message_charges_in_pay_out_currency",
+                "title": "Message_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Phone_notification_charges_in_pay_out_currency",
+                "title": "Phone_notification_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Credit_card_charges_in_pay_out_currency",
+                "title": "Credit_card_charges_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Country_surcharge_in_pay_out_currency",
+                "title": "Country_surcharge_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "State_tax_in_pay_out_currency",
+                "title": "State_tax_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "City_tax_in_pay_out_currency",
+                "title": "City_tax_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Municipal_tax_in_pay_out_currency",
+                "title": "Municipal_tax_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Total_tax_in_pay_out_currency",
+                "title": "Total_tax_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Quick_pay_relationship_price_in_USD",
+                "title": "Quick_pay_relationship_price_in_USD",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Quick_pay_relationship_price_in_recorded_currency",
+                "title": "Quick_pay_relationship_price_in_recorded_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Quick_pay_relationship_price_in_local_currency",
+                "title": "Quick_pay_relationship_price_in_local_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Quick_pay_relationship_price_in_pay_out_currency",
+                "title": "Quick_pay_relationship_price_in_pay_out_currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_1",
+                "title": "Spare_field_1",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_2",
+                "title": "Spare_field_2",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_3",
+                "title": "Spare_field_3",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_4",
+                "title": "Spare_field_4",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_5",
+                "title": "Spare_field_5",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_6",
+                "title": "Spare_field_6",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_7",
+                "title": "Spare_field_7",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_8",
+                "title": "Spare_field_8",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_9",
+                "title": "Spare_field_9",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Spare_field_10",
+                "title": "Spare_field_10",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 9,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Settlement_Cycle",
+                "title": "Settlement_Cycle",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Settlement_Date",
+                "title": "Settlement_Date",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "yyMMdd",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+            {
+                "name": "RUC_OOC",
+                "title": "RUC_OOC",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "SenderCity",
+                "title": "SenderCity",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "SenderStateCode",
+                "title": "SenderStateCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "SenderStateCode1",
+                "title": "SenderStateCode1",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "ReceiverCity",
+                "title": "ReceiverCity",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "ReceiverStateCode",
+                "title": "ReceiverStateCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "CommercialCompany",
+                "title": "CommercialCompany",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 255,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Chk_Delete",
+                "title": "Chk_Delete",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Chk_ACT",
+                "title": "Chk_ACT",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+            {
+                "name": "ID_Backup_Payout_Transaction",
+                "title": "ID_Backup_Payout_Transaction",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "ID_Backup_Settlement_Send_Transaction",
+                "title": "ID_Backup_Settlement_Send_Transaction",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+            {
+                "name": "Date_Matching",
+                "title": "Date_Matching",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "dd-MM-yyyy",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            }
+        ]
+    }
+}

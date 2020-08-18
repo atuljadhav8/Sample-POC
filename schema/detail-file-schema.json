@@ -1,0 +1,279 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "Account_Code",
+                "title": "Account_Code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Street_1",
+                "title": "Street_1",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Street_2",
+                "title": "Street_2",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Town",
+                "title": "Town",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "County",
+                "title": "County",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Post_Code",
+                "title": "Post_Code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Date",
+                "title": "Date",
+                "constraints": {
+                    "required": true,
+                    "type": "date",
+                    "pattern": "dd/MM/yyyy",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Doc_No",
+                "title": "Doc_No",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Del_Note_No",
+                "title": "Del_Note_No",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Int_Ord_No",
+                "title": "Int_Ord_No",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CostCentre",
+                "title": "CostCentre",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 50,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Travelex_Order_No",
+                "title": "Travelex_Order_No",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1024,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Item_Code",
+                "title": "Item_Code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Description",
+                "title": "Description",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 40,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Pack_Size",
+                "title": "Pack_Size",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Quantity",
+                "title": "Quantity",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Price",
+                "title": "Price",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Total",
+                "title": "Total",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Vat",
+                "title": "Vat",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Vat_Code",
+                "title": "Vat_Code",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 32,
+                    "unique": false
+                }
+            },
+			{
+                "name": "VAT_Rate",
+                "title": "VAT_Rate",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            }
+        ]
+    }
+}

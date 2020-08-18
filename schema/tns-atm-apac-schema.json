@@ -1,0 +1,228 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "TerminalID",
+                "title": "TerminalID",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "MessageType",
+                "title": "MessageType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionType",
+                "title": "TransactionType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionAmount",
+                "title": "TransactionAmount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionCurrency",
+                "title": "TransactionCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionReportingDate",
+                "title": "TransactionReportingDate",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionDateTime",
+                "title": "TransactionDateTime",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SinkNodeName",
+                "title": "SinkNodeName",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SettlementAmount",
+                "title": "SettlementAmount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SettlementCurrency",
+                "title": "SettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CardBIN",
+                "title": "CardBIN",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "ResponseCode",
+                "title": "ResponseCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CommissionAmount",
+                "title": "CommissionAmount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CardType",
+                "title": "CardType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TransactionID",
+                "title": "TransactionID",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CardAmount",
+                "title": "CardAmount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "CardCurrency",
+                "title": "CardCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            }
+			
+        ]
+    }
+}

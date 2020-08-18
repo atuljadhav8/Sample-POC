@@ -1,0 +1,32 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "Currency",
+                "title": "currency abbreviation",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique":false
+                }
+            },
+            {
+                "name": "Rate",
+                "title": "Rates of the particular currency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "nullable": true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique":false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+	"body": {
+		"fields": [
+			{
+				"name": "ATMid",
+				"title": "ATMid",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "MessageType",
+				"title": "MessageType",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "TransactionType",
+				"title": "TransactionType",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "CurrencyDispenseAmount",
+				"title": "CurrencyDispenseAmount",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "DispenseCurrency",
+				"title": "DispenseCurrency",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "BusinessDate",
+				"title": "BusinessDate",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "TransactionDateTime",
+				"title": "TransactionDateTime",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "CardSchemaIdentifier",
+				"title": "CardSchemaIdentifier",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "TransactionCurrencyCode",
+				"title": "TransactionCurrencyCode",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "PAN",
+				"title": "PAN",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "ResponseCode",
+				"title": "ResponseCode",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			},
+			{
+				"name": "SurchargeComission",
+				"title": "SurchargeComission",
+				"constraints": {
+					"required": true,
+					"type": "string",
+					"pattern": "",
+					"nullable": false,
+					"minLength": 0,
+					"maxLength": 0,
+					"unique": false
+				}
+			}
+		]
+	}
+}

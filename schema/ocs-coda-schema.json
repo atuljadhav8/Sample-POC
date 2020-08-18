@@ -1,0 +1,227 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "Nominal",
+                "title": "Nominal",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "firstAccount",
+                "title": "firstAccount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "secondAccount",
+                "title": "secondAccount",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "docCurr",
+                "title": "docCurr",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "docValue",
+                "title": "docValue",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "nominalValue",
+                "title": "nominalValue",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "accountValue",
+                "title": "accountValue",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "homeValue",
+                "title": "homeValue",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "docType",
+                "title": "docType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "docNo",
+                "title": "docNo",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Year",
+                "title": "Year",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "Period",
+                "title": "Period",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "docDate",
+                "title": "docDate",
+                "constraints": {
+                    "required": true,
+                    "type": "date",
+                    "pattern": "dd/MM/yy",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "description",
+                "title": "description",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "userField1",
+                "title": "userField1",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "userField2",
+                "title": "userField2",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "userField3",
+                "title": "userField3",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            }
+        ]
+    }
+}

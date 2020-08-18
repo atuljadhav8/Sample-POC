@@ -1,0 +1,188 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "NTWK",
+                "title": "NTWK",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SUB",
+                "title": "SUB",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PAYAGT_ID",
+                "title": "PAYAGT_ID",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+			{
+                "name": "DV",
+                "title": "DV",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "STR",
+                "title": "STR",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 3,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SR",
+                "title": "SR",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+			{
+                "name": "MTCN",
+                "title": "MTCN",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 10,
+                    "unique": false
+                }
+            },
+			{
+                "name": "REC_DATE",
+                "title": "REC_DATE",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "IND_ADJ",
+                "title": "IND_ADJ",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PAY_PRINC",
+                "title": "PAY_PRINC",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "FUND_AMT",
+                "title": "FUND_AMT",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PAYEE",
+                "title": "PAYEE",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 65,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PAY_DATE",
+                "title": "PAY_DATE",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PRODCD",
+                "title": "PRODCD",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 6,
+                    "unique": false
+                }
+            }
+        ]
+    }
+}

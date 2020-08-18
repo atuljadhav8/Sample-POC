@@ -1,0 +1,227 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "SUP_NET",
+                "title": "SUP_NET",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "NET_ID",
+                "title": "NET_ID",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SUB_NET",
+                "title": "SUB_NET",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "NETWORK_NAME",
+                "title": "NETWORK_NAME",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 30,
+                    "unique": false
+                }
+            },
+			{
+                "name": "MLN_STORE",
+                "title": "MLN_STORE",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 4,
+                    "unique": false
+                }
+            },
+			{
+                "name": "AGENT_ID",
+                "title": "AGENT_ID",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+			{
+                "name": "AGENT_NAME",
+                "title": "AGENT_NAME",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 30,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TXN_TYP",
+                "title": "TXN_TYP",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 3,
+                    "unique": false
+                }
+            },
+			{
+                "name": "MTCN",
+                "title": "MTCN",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 10,
+                    "unique": false
+                }
+            },
+			{
+                "name": "DATE",
+                "title": "DATE",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TIME",
+                "title": "TIME",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 5,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PRINCIPAL_AMOUNT",
+                "title": "PRINCIPAL_AMOUNT",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TOTAL_CHARGES_AMOUNT",
+                "title": "TOTAL_CHARGES_AMOUNT",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TOTAL_TAXES_AMOUNT",
+                "title": "TOTAL_TAXES_AMOUNT",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "GROSS_AMOUNT",
+                "title": "GROSS_AMOUNT",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "unique": false
+                }
+            },
+			{
+                "name": "PAY_METH",
+                "title": "PAY_METH",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 9,
+                    "unique": false
+                }
+            },
+			{
+                "name": "SENDER_PAYER_NAME",
+                "title": "SENDER_PAYER_NAME",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+                    "pattern": "",
+					"nullable": true,
+                    "minLength": 0,
+                    "maxLength": 65,
+                    "unique": false
+                }
+            }
+        ]
+    }
+}

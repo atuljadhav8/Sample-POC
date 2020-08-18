@@ -1,0 +1,398 @@
+{
+    "body": {
+        "fields": [
+            {
+                "name": "recordType",
+                "title": "recordType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            },
+			{
+                "name": "agentCode",
+                "title": "agentCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 12,
+                    "unique": false
+                }
+            },
+			{
+                "name": "xpin",
+                "title": "xpin",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 16,
+                    "unique": false
+                }
+            },
+			{
+                "name": "transactionDate",
+                "title": "transactionDate",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "cancellationDate",
+                "title": "cancellationDate",
+                "constraints": {
+                    "required": true,
+                    "type": "integer",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 8,
+                    "unique": false
+                }
+            },
+			{
+                "name": "payInCurrencyCode",
+                "title": "payInCurrencyCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 3,
+                    "unique": false
+                }
+            },
+			{
+                "name": "payoutCurrencyCode",
+                "title": "payoutCurrencyCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 3,
+                    "unique": false
+                }
+            },
+			{
+                "name": "settlementCurrencyCode",
+                "title": "settlementCurrencyCode",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 3,
+                    "unique": false
+                }
+            },
+			{
+                "name": "countrycodeOriginatingCountry",
+                "title": "countrycodeOriginatingCountry",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+			{
+                "name": "countrycodeofthepayoutcountry",
+                "title": "countrycodeofthepayoutcountry",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 2,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedprincipalSettlementCurrency",
+                "title": "recordedprincipalSettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedchargesSettlementCurrency",
+                "title": "recordedchargesSettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearprincipalSettlementCurrency",
+                "title": "clearprincipalSettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearchargesSettlementCurrency",
+                "title": "clearchargesSettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearFXSettlementCurrency",
+                "title": "clearFXSettlementCurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedPrincipalLocalcurrency",
+                "title": "recordedPrincipalLocalcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedchargesLocalcurrency",
+                "title": "recordedchargesLocalcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedPrincipalPayoutcurrency",
+                "title": "recordedPrincipalPayoutcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "recordedchargesPayoutcurrency",
+                "title": "recordedchargesPayoutcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearPrincipalPayoutcurrency",
+                "title": "clearPrincipalPayoutcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearChargesPayoutcurrency",
+                "title": "clearChargesPayoutcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "clearFXPayoutcurrency",
+                "title": "clearFXPayoutcurrency",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TotalDiscountPremium",
+                "title": "TotalDiscountPremium",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "VatTaxDr",
+                "title": "VatTaxDr",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "VatTaxCr",
+                "title": "VatTaxCr",
+                "constraints": {
+                    "required": true,
+                    "type": "number",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 17,
+                    "unique": false
+                }
+            },
+			{
+                "name": "DeliveryOption",
+                "title": "DeliveryOption",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "TxnType",
+                "title": "TxnType",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 10,
+                    "unique": false
+                }
+            },
+				{
+                "name": "Status",
+                "title": "Status",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":false,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 20,
+                    "unique": false
+                }
+            },
+			{
+                "name": "UserID",
+                "title": "UserID",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 16,
+                    "unique": false
+                }
+            },
+			{
+                "name": "NoofTxns",
+                "title": "NoofTxns",
+                "constraints": {
+                    "required": true,
+                    "type": "string",
+					"nullable":true,
+                    "pattern": "",
+                    "minLength": 0,
+                    "maxLength": 1,
+                    "unique": false
+                }
+            }
+			
+			
+        ]
+    }
+}
