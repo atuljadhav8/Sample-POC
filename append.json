@@ -1,194 +1,880 @@
 {
-    "fileHeader": {
-        "recordType": "000",
-        "corporateId": "COL",
-        "fileType": "1",
-        "gatewayId": "COL101",
-        "gatewayControlSequenceNumber": "updateInAdapter",
-        "bookCurrency": "USD",
-        "dateFileCreated": "10AUG2020",
-        "timeFileCreated": "112233",
-        "endOfRecordMarker": "#"
-    },
-    "order": {
-        "orderHeader": {
-            "recordType": "001",
-            "customerId": "IBCBANK",
-            "recordSequenceNumber": "updateInAdapter",
-            "customerOrderReference": "USDB7EB417",
-            "version": null,
-            "orderType": "STK",
-            "orderStatus": "000000",
-            "billingMethod": "1",
-            "billingCurrency": "USD",
-            "paymentMethod": "AC",
-            "paymentStatus": "PFU",
-            "customerType": "1",
-            "orderLocation": "C01",
-            "userName": "Dinorah Garcia",
-            "dateOrderPlaced": "10AUG2020",
-            "timeOrderPlaced": "112233",
-            "originalOrderReference": null,
-            "TCSOrderReference": null,
-            "formReference": null,
-            "faultAllocation": null,
-            "authorisationReference": null,
-            "requiredByDate": "10AUG2020",
-            "requiredByTime": "",
-            "deliveryOption": "C01",
-            "deliveryLocationCompany": "31466",
-            "deliveryLocationTravelex": "31466",
-            "deliveryCharge": "10.00",
-            "commission": "0.00",
-            "surname": null,
-            "initials": null,
-            "title": null,
-            "source": "COL",
-            "rewardPointEligibility": null,
-            "messageId": null,
-            "cardHandlingFee": 10,
-            "endOfRecordMarker": "#"
-        },
-        "customerAddress": {
-            "recordType": "002",
-            "customerId": "IBCBANK",
-            "recordSequenceNumber": "updateInAdapter",
-            "customerOrderReference": "USDB7EB417",
-            "version": null,
-            "addressType": "01",
-            "telephoneNumber": "4136443520",
-            "companyName": null,
-            "departmentName": null,
-            "addressLine1": "244 Main St",
-            "addressLine2": null,
-            "addressLine3": null,
-            "city": "Great Barrington",
-            "state": "MA",
-            "postalCode": "01230",
-            "country": "USA",
-            "endOfRecordMarker": "#"
-        },
-        "customInfo": [
+    "recordsets": [
+        [
             {
-                "recordType": "004",
-                "customerId": "IBCBANK",
-                "recordSequenceNumber": "updateInAdapter",
-                "customerOrderReference": "USDB7EB417",
-                "version": null,
-                "keyword": "SOURCE_ORDER_ID",
-                "keywordData": "192853015",
-                "endOfRecordMarker": "#"
+                "localdescription": "UAE Dirham",
+                "buyrate": 5.7472,
+                "sellrate": 3.6387,
+                "productid": "AED",
+                "changeddate": "2020-06-15T08:24:21.870Z"
             },
             {
-                "recordType": "004",
-                "customerId": "IBCBANK",
-                "recordSequenceNumber": "updateInAdapter",
-                "customerOrderReference": "USDB7EB417",
-                "version": null,
-                "keyword": "FIRSTNAME",
-                "keywordData": "Daniel",
-                "endOfRecordMarker": "#"
+                "localdescription": "Argentine Peso",
+                "buyrate": 112.8846,
+                "sellrate": 64.4044,
+                "productid": "ARS",
+                "changeddate": "2020-06-15T08:24:21.870Z"
             },
             {
-                "recordType": "004",
-                "customerId": "IBCBANK",
-                "recordSequenceNumber": "updateInAdapter",
-                "customerOrderReference": "USDB7EB417",
-                "version": null,
-                "keyword": "LASTNAME",
-                "keywordData": "Scott",
-                "endOfRecordMarker": "#"
-            }
-        ],
-        "lineItems": [
+                "localdescription": "Australian Dollar",
+                "buyrate": 2.2928,
+                "sellrate": 1.4515,
+                "productid": "AUD",
+                "changeddate": "2020-09-24T08:38:14.623Z"
+            },
             {
-                "recordType": "006",
-                "customerId": "IBCBANK",
-                "recordSequenceNumber": "updateInAdapter",
-                "customerOrderReference": "USDB7EB417",
-                "version": null,
-                "lineItem": 1,
-                "productType": "FC",
-                "currency": "MXN",
-                "foreignValue": "108750.00",
-                "exchangeRate": "0.04512916",
-                "bookCurrencyValue": "4907.80",
-                "denominationsType": "X",
-                "commissionAmount": "0.00",
-                "issuer": null,
-                "endOfRecordMarker": "#",
-                "denominations": [
-                    {
-                        "recordType": "007",
-                        "customerId": "IBCBANK",
-                        "recordSequenceNumber": "updateInAdapter",
-                        "customerOrderReference": "USDB7EB417",
-                        "version": null,
-                        "lineItem": 1,
-                        "denominationValue": "20",
-                        "quantity": "10",
-                        "endOfRecordMarker": "#"
-                    },
-                    {
-                        "recordType": "007",
-                        "customerId": "IBCBANK",
-                        "recordSequenceNumber": "updateInAdapter",
-                        "customerOrderReference": "USDB7EB417",
-                        "version": null,
-                        "lineItem": 1,
-                        "denominationValue": "50",
-                        "quantity": "4",
-                        "endOfRecordMarker": "#"
-                    }
-                ],
-                "beneficiary": [
-                    {
-                        "recordType": "016",
-                        "customerId": "IBCBANK",
-                        "recordSequenceNumber": "updateInAdapter",
-                        "customerOrderReference": "USDB7EB417",
-                        "version": null,
-                        "lineItem": 1,
-                        "name": "John Cena",
-                        "addressLine1": "244 Main St",
-                        "addressLine2": null,
-                        "city": "Great Barrington",
-                        "region": "MA",
-                        "postalCode": "01230",
-                        "country": "USA",
-                        "comments": null,
-                        "draftNumber": null,
-                        "endOfRecordMarker": "#"
-                    }
-                ]
+                "localdescription": "Barbadian Dollar",
+                "buyrate": 3.3993,
+                "sellrate": 1.9003,
+                "productid": "BBD",
+                "changeddate": "2020-09-24T08:38:14.623Z"
+            },
+            {
+                "localdescription": "Bulgarian Lev",
+                "buyrate": 2.8303,
+                "sellrate": 1.6148,
+                "productid": "BGN",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Bahraini Dinar",
+                "buyrate": 0.615,
+                "sellrate": 0.3502,
+                "productid": "BHD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Bermudan Dollar",
+                "buyrate": 1.6269,
+                "sellrate": 0.9284,
+                "productid": "BMD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Brunei Dollar",
+                "buyrate": 2.2728,
+                "sellrate": 1.2965,
+                "productid": "BND",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Brazilian Real",
+                "buyrate": 8.2188,
+                "sellrate": 4.6895,
+                "productid": "BRL",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Canadian Dollar",
+                "buyrate": 2.1735,
+                "sellrate": 1.3204,
+                "productid": "CAD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Swiss Franc",
+                "buyrate": 1.491,
+                "sellrate": 0.9437,
+                "productid": "CHF",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Chilean Peso",
+                "buyrate": 1289.8024,
+                "sellrate": 735.0015,
+                "productid": "CLP",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Chinese Yuan Renminbi",
+                "buyrate": 11.1048,
+                "sellrate": 7.0297,
+                "productid": "CNY",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Costa Rican Colon",
+                "buyrate": 946.8052,
+                "sellrate": 533.748,
+                "productid": "CRC",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Czech Koruna",
+                "buyrate": 38.9004,
+                "sellrate": 22.1632,
+                "productid": "CZK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Danish Kroner",
+                "buyrate": 10.7882,
+                "sellrate": 6.1558,
+                "productid": "DKK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Dominican Peso",
+                "buyrate": 95.3802,
+                "sellrate": 53.8204,
+                "productid": "DOP",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "European Euro",
+                "buyrate": 1.3417,
+                "sellrate": 0.9251,
+                "productid": "EUR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Fijian Dollar",
+                "buyrate": 3.5747,
+                "sellrate": 1.9876,
+                "productid": "FJD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "United Kingdom Pound",
+                "buyrate": 1,
+                "sellrate": 1,
+                "productid": "GBP",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Gibraltar Pound",
+                "buyrate": 1.305,
+                "sellrate": 0.695,
+                "productid": "GIP",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Gambian Dalasi",
+                "buyrate": 84.5943,
+                "sellrate": 44.9077,
+                "productid": "GMD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "HongKong Dollar",
+                "buyrate": 12.1254,
+                "sellrate": 7.6783,
+                "productid": "HKD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Croatian Kuna",
+                "buyrate": 10.9486,
+                "sellrate": 6.2436,
+                "productid": "HRK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Hungarian Forint",
+                "buyrate": 503.743,
+                "sellrate": 287.141,
+                "productid": "HUF",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Indonesian Rupiah",
+                "buyrate": 24871.31,
+                "sellrate": 13044.205,
+                "productid": "IDR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Israeli Shekel",
+                "buyrate": 5.6825,
+                "sellrate": 3.2411,
+                "productid": "ILS",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Indian Rupee",
+                "buyrate": 120.968,
+                "sellrate": 73.5,
+                "productid": "INR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Icelandic Krone",
+                "buyrate": 215.255,
+                "sellrate": 130.489,
+                "productid": "ISK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Jamaican Dollar",
+                "buyrate": 228.9252,
+                "sellrate": 129.7465,
+                "productid": "JMD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Jordanian Dinar",
+                "buyrate": 1.1551,
+                "sellrate": 0.6585,
+                "productid": "JOD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Japanese Yen",
+                "buyrate": 170.449,
+                "sellrate": 103.543,
+                "productid": "JPY",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Kenyan Shilling",
+                "buyrate": 173.419,
+                "sellrate": 98.783,
+                "productid": "KES",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "South Korean Won",
+                "buyrate": 1978.58,
+                "sellrate": 1128.84,
+                "productid": "KRW",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Kuwaiti Dinar",
+                "buyrate": 0.482,
+                "sellrate": 0.3047,
+                "productid": "KWD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Sri Lankan Rupee",
+                "buyrate": 302.1806,
+                "sellrate": 172.2681,
+                "productid": "LKR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Latvian Lat",
+                "buyrate": 0.8276,
+                "sellrate": 0.4397,
+                "productid": "LVL",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Moroccan Dirham",
+                "buyrate": 15.7284,
+                "sellrate": 8.9631,
+                "productid": "MAD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Mauritian Rupee",
+                "buyrate": 65.5606,
+                "sellrate": 37.1367,
+                "productid": "MUR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Mexican Peso",
+                "buyrate": 36.904,
+                "sellrate": 21.0255,
+                "productid": "MXN",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Malaysian Ringgit",
+                "buyrate": 6.9742,
+                "sellrate": 3.9708,
+                "productid": "MYR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Norwegian Kroner",
+                "buyrate": 15.5308,
+                "sellrate": 9.4333,
+                "productid": "NOK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "New Zealand Dollar",
+                "buyrate": 2.5447,
+                "sellrate": 1.4513,
+                "productid": "NZD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Omani Rial",
+                "buyrate": 0.6263,
+                "sellrate": 0.3573,
+                "productid": "OMR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Philippine Peso",
+                "buyrate": 81.8857,
+                "sellrate": 46.7226,
+                "productid": "PHP",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Pakistani Rupee",
+                "buyrate": 270.051,
+                "sellrate": 131.9034,
+                "productid": "PKR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Polish Zloty",
+                "buyrate": 6.4565,
+                "sellrate": 3.6831,
+                "productid": "PLN",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Qatari Riyal",
+                "buyrate": 5.7887,
+                "sellrate": 3.5169,
+                "productid": "QAR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Romanian Leu (NEW)",
+                "buyrate": 6.9995,
+                "sellrate": 3.9894,
+                "productid": "RON",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Russian Rouble",
+                "buyrate": 114.5764,
+                "sellrate": 65.3286,
+                "productid": "RUB",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Saudi Riyal",
+                "buyrate": 5.9651,
+                "sellrate": 3.6236,
+                "productid": "SAR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Swedish Krona",
+                "buyrate": 14.9408,
+                "sellrate": 9.0742,
+                "productid": "SEK",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Singaporean Dollar",
+                "buyrate": 2.2208,
+                "sellrate": 1.349,
+                "productid": "SGD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Thai Baht",
+                "buyrate": 48.5929,
+                "sellrate": 30.7621,
+                "productid": "THB",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Turkish Lira (NEW)",
+                "buyrate": 10.8031,
+                "sellrate": 6.5665,
+                "productid": "TRY",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Trinidad & Tobago Dollar",
+                "buyrate": 11.1047,
+                "sellrate": 6.1947,
+                "productid": "TTD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Taiwanese Dollar",
+                "buyrate": 48.3002,
+                "sellrate": 27.5387,
+                "productid": "TWD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Ukraine Hryvnia",
+                "buyrate": 43.5499,
+                "sellrate": 24.8259,
+                "productid": "UAH",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "United States Dollar",
+                "buyrate": 1.5084,
+                "sellrate": 1.0405,
+                "productid": "USD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Vietnamese Dong",
+                "buyrate": 37782.36,
+                "sellrate": 21558.065,
+                "productid": "VND",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "Eastern Caribbean Dollar",
+                "buyrate": 4.425,
+                "sellrate": 2.3384,
+                "productid": "XCD",
+                "changeddate": "2020-06-15T08:24:21.870Z"
+            },
+            {
+                "localdescription": "South African Rand",
+                "buyrate": 27.0364,
+                "sellrate": 17.1118,
+                "productid": "ZAR",
+                "changeddate": "2020-06-15T08:24:21.870Z"
             }
-        ],
-        "orderTrailer": {
-            "recordType": "099",
-            "customerId": "IBCBANK",
-            "recordSequenceNumber": "updateInAdapter",
-            "customerOrderReference": "USDB7EB417",
-            "version": null,
-            "countOfLineItems": 1,
-            "totalBookCurrencyValue": 4907.8,
-            "totalCommissionValue": 0,
-            "totalPromotionFees": 0,
-            "totalDeliveryFees": 10,
-            "orderRecordCount": 10,
-            "checkSum": null,
-            "endOfRecordMarker": "#"
+        ]
+    ],
+    "recordset": [
+        {
+            "localdescription": "UAE Dirham",
+            "buyrate": 5.7472,
+            "sellrate": 3.6387,
+            "productid": "AED",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Argentine Peso",
+            "buyrate": 112.8846,
+            "sellrate": 64.4044,
+            "productid": "ARS",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Australian Dollar",
+            "buyrate": 2.2928,
+            "sellrate": 1.4515,
+            "productid": "AUD",
+            "changeddate": "2020-09-24T08:38:14.623Z"
+        },
+        {
+            "localdescription": "Barbadian Dollar",
+            "buyrate": 3.3993,
+            "sellrate": 1.9003,
+            "productid": "BBD",
+            "changeddate": "2020-09-24T08:38:14.623Z"
+        },
+        {
+            "localdescription": "Bulgarian Lev",
+            "buyrate": 2.8303,
+            "sellrate": 1.6148,
+            "productid": "BGN",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Bahraini Dinar",
+            "buyrate": 0.615,
+            "sellrate": 0.3502,
+            "productid": "BHD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Bermudan Dollar",
+            "buyrate": 1.6269,
+            "sellrate": 0.9284,
+            "productid": "BMD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Brunei Dollar",
+            "buyrate": 2.2728,
+            "sellrate": 1.2965,
+            "productid": "BND",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Brazilian Real",
+            "buyrate": 8.2188,
+            "sellrate": 4.6895,
+            "productid": "BRL",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Canadian Dollar",
+            "buyrate": 2.1735,
+            "sellrate": 1.3204,
+            "productid": "CAD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Swiss Franc",
+            "buyrate": 1.491,
+            "sellrate": 0.9437,
+            "productid": "CHF",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Chilean Peso",
+            "buyrate": 1289.8024,
+            "sellrate": 735.0015,
+            "productid": "CLP",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Chinese Yuan Renminbi",
+            "buyrate": 11.1048,
+            "sellrate": 7.0297,
+            "productid": "CNY",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Costa Rican Colon",
+            "buyrate": 946.8052,
+            "sellrate": 533.748,
+            "productid": "CRC",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Czech Koruna",
+            "buyrate": 38.9004,
+            "sellrate": 22.1632,
+            "productid": "CZK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Danish Kroner",
+            "buyrate": 10.7882,
+            "sellrate": 6.1558,
+            "productid": "DKK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Dominican Peso",
+            "buyrate": 95.3802,
+            "sellrate": 53.8204,
+            "productid": "DOP",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "European Euro",
+            "buyrate": 1.3417,
+            "sellrate": 0.9251,
+            "productid": "EUR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Fijian Dollar",
+            "buyrate": 3.5747,
+            "sellrate": 1.9876,
+            "productid": "FJD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "United Kingdom Pound",
+            "buyrate": 1,
+            "sellrate": 1,
+            "productid": "GBP",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Gibraltar Pound",
+            "buyrate": 1.305,
+            "sellrate": 0.695,
+            "productid": "GIP",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Gambian Dalasi",
+            "buyrate": 84.5943,
+            "sellrate": 44.9077,
+            "productid": "GMD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "HongKong Dollar",
+            "buyrate": 12.1254,
+            "sellrate": 7.6783,
+            "productid": "HKD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Croatian Kuna",
+            "buyrate": 10.9486,
+            "sellrate": 6.2436,
+            "productid": "HRK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Hungarian Forint",
+            "buyrate": 503.743,
+            "sellrate": 287.141,
+            "productid": "HUF",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Indonesian Rupiah",
+            "buyrate": 24871.31,
+            "sellrate": 13044.205,
+            "productid": "IDR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Israeli Shekel",
+            "buyrate": 5.6825,
+            "sellrate": 3.2411,
+            "productid": "ILS",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Indian Rupee",
+            "buyrate": 120.968,
+            "sellrate": 73.5,
+            "productid": "INR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Icelandic Krone",
+            "buyrate": 215.255,
+            "sellrate": 130.489,
+            "productid": "ISK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Jamaican Dollar",
+            "buyrate": 228.9252,
+            "sellrate": 129.7465,
+            "productid": "JMD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Jordanian Dinar",
+            "buyrate": 1.1551,
+            "sellrate": 0.6585,
+            "productid": "JOD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Japanese Yen",
+            "buyrate": 170.449,
+            "sellrate": 103.543,
+            "productid": "JPY",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Kenyan Shilling",
+            "buyrate": 173.419,
+            "sellrate": 98.783,
+            "productid": "KES",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "South Korean Won",
+            "buyrate": 1978.58,
+            "sellrate": 1128.84,
+            "productid": "KRW",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Kuwaiti Dinar",
+            "buyrate": 0.482,
+            "sellrate": 0.3047,
+            "productid": "KWD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Sri Lankan Rupee",
+            "buyrate": 302.1806,
+            "sellrate": 172.2681,
+            "productid": "LKR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Latvian Lat",
+            "buyrate": 0.8276,
+            "sellrate": 0.4397,
+            "productid": "LVL",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Moroccan Dirham",
+            "buyrate": 15.7284,
+            "sellrate": 8.9631,
+            "productid": "MAD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Mauritian Rupee",
+            "buyrate": 65.5606,
+            "sellrate": 37.1367,
+            "productid": "MUR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Mexican Peso",
+            "buyrate": 36.904,
+            "sellrate": 21.0255,
+            "productid": "MXN",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Malaysian Ringgit",
+            "buyrate": 6.9742,
+            "sellrate": 3.9708,
+            "productid": "MYR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Norwegian Kroner",
+            "buyrate": 15.5308,
+            "sellrate": 9.4333,
+            "productid": "NOK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "New Zealand Dollar",
+            "buyrate": 2.5447,
+            "sellrate": 1.4513,
+            "productid": "NZD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Omani Rial",
+            "buyrate": 0.6263,
+            "sellrate": 0.3573,
+            "productid": "OMR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Philippine Peso",
+            "buyrate": 81.8857,
+            "sellrate": 46.7226,
+            "productid": "PHP",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Pakistani Rupee",
+            "buyrate": 270.051,
+            "sellrate": 131.9034,
+            "productid": "PKR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Polish Zloty",
+            "buyrate": 6.4565,
+            "sellrate": 3.6831,
+            "productid": "PLN",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Qatari Riyal",
+            "buyrate": 5.7887,
+            "sellrate": 3.5169,
+            "productid": "QAR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Romanian Leu (NEW)",
+            "buyrate": 6.9995,
+            "sellrate": 3.9894,
+            "productid": "RON",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Russian Rouble",
+            "buyrate": 114.5764,
+            "sellrate": 65.3286,
+            "productid": "RUB",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Saudi Riyal",
+            "buyrate": 5.9651,
+            "sellrate": 3.6236,
+            "productid": "SAR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Swedish Krona",
+            "buyrate": 14.9408,
+            "sellrate": 9.0742,
+            "productid": "SEK",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Singaporean Dollar",
+            "buyrate": 2.2208,
+            "sellrate": 1.349,
+            "productid": "SGD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Thai Baht",
+            "buyrate": 48.5929,
+            "sellrate": 30.7621,
+            "productid": "THB",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Turkish Lira (NEW)",
+            "buyrate": 10.8031,
+            "sellrate": 6.5665,
+            "productid": "TRY",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Trinidad & Tobago Dollar",
+            "buyrate": 11.1047,
+            "sellrate": 6.1947,
+            "productid": "TTD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Taiwanese Dollar",
+            "buyrate": 48.3002,
+            "sellrate": 27.5387,
+            "productid": "TWD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Ukraine Hryvnia",
+            "buyrate": 43.5499,
+            "sellrate": 24.8259,
+            "productid": "UAH",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "United States Dollar",
+            "buyrate": 1.5084,
+            "sellrate": 1.0405,
+            "productid": "USD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Vietnamese Dong",
+            "buyrate": 37782.36,
+            "sellrate": 21558.065,
+            "productid": "VND",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "Eastern Caribbean Dollar",
+            "buyrate": 4.425,
+            "sellrate": 2.3384,
+            "productid": "XCD",
+            "changeddate": "2020-06-15T08:24:21.870Z"
+        },
+        {
+            "localdescription": "South African Rand",
+            "buyrate": 27.0364,
+            "sellrate": 17.1118,
+            "productid": "ZAR",
+            "changeddate": "2020-06-15T08:24:21.870Z"
         }
-    },
-    "fileTrailer": {
-        "recordType": "999",
-        "corporateId": "COL",
-        "countOfLineItems": 2,
-        "totalBookCurrencyValue": "updateInAdapter",
-        "totalCommissionValue": "updateInAdapter",
-        "totalPromotionFees": "updateInAdapter",
-        "totalDeliveryFees": "updateInAdapter",
-        "fileRecordCount": "updateInAdapter",
-        "checkSum": null,
-        "endOfRecordMarker": "#"
-    }
+    ],
+    "output": {},
+    "rowsAffected": [
+        62
+    ]
 }
