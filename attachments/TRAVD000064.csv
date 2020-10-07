@@ -1,0 +1,29 @@
+Account Code,Street 1,Street 2,Town,County,Post Code,Date,Doc No,Del Note No,Int Ord No,CostCentre,Travelex Order No,Item Code,Description,Pack Size,Quantity,Price,Line Total,Line Vat,Vat Code,VAT Rate
+320,8 Radford Crescent,,Billericay,ESSEX,CM12 ODU,14/06/2017,CR00653456,DN00582233,SO00575003,C00047,Sandra Fay,KF10524,Q-Connect No.16 Rubber Bands 500gm Pack,1,3,-1.97,0,-1.18,1,20
+320,8 Radford Crescent,,Billericay,ESSEX,CM12 ODU,14/06/2017,CR00653456,DN00582233,SO00575003,C00047,Sandra Fay,A1,Credit re S/Order 574853 Date 07/06/17,1,1,0,0,0,1,20
+320,8 Radford Crescent,,Billericay,ESSEX,CM12 ODU,14/06/2017,CR00653456,DN00582233,SO00575003,C00047,Sandra Fay,B4,Miss Picking by Supplier NO 36 RECD,1,1,0,0,0,1,20
+320,8 Radford Crescent,,Billericay,ESSEX,CM12 ODU,14/06/2017,CR00653456,DN00582233,SO00575003,C00047,Sandra Fay,C,,1,1,0,0,0,1,20
+320,8 Radford Crescent,,Billericay,ESSEX,CM12 ODU,14/06/2017,CR00653456,DN00582233,SO00575003,C00047,Sandra Fay,D2,Goods Returned/Collected 08/06/17,1,1,0,0,0,1,20
+803,4th Floor,Kings Place,York Way ,LONDON  ,N1 9AG,14/06/2017,CR00653948,DN00582158,SO00574935,C04042,Cyril Schaegis,PLR03882,Plantronics Voyager Legend USB/Bluetooth,1,2,-108.95,-217.9,-43.58,1,20
+803,4th Floor,Kings Place,York Way ,LONDON  ,N1 9AG,14/06/2017,CR00653948,DN00582158,SO00574935,C04042,Cyril Schaegis,A1,Credit re S/Order 574536 Date 05/06/17,1,1,0,-217.9,0,1,20
+803,4th Floor,Kings Place,York Way ,LONDON  ,N1 9AG,14/06/2017,CR00653948,DN00582158,SO00574935,C04042,Cyril Schaegis,B2,Goods ordered in error by customer,1,1,0,-217.9,0,1,20
+803,4th Floor,Kings Place,York Way ,LONDON  ,N1 9AG,14/06/2017,CR00653948,DN00582158,SO00574935,C04042,Cyril Schaegis,C,,1,1,0,-217.9,0,1,20
+803,4th Floor,Kings Place,York Way ,LONDON  ,N1 9AG,14/06/2017,CR00653948,DN00582158,SO00574935,C04042,Cyril Schaegis,D1,Please Collect From Customer,1,1,0,-217.9,0,1,20
+FRATM,Accounts Payable ,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,15/06/2017,CR00653965,DN00583056,SO00575798,S302627,AW2627 ,WX10102,Charcoal A4 Lever Arch 70mm Files Pk10,1,1,-0.63,-0.63,-0.13,1,20
+FRATM,Accounts Payable ,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,15/06/2017,CR00653965,DN00583056,SO00575798,S302627,AW2627 ,A1,Credit re S/Order 575642 Date 14/06/17,1,1,0,0,0,1,20
+FRATM,Accounts Payable ,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,15/06/2017,CR00653965,DN00583056,SO00575798,S302627,AW2627 ,B6,Damaged CORNER BROKEN,1,1,0,0,0,1,20
+FRATM,Accounts Payable ,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,15/06/2017,CR00653965,DN00583056,SO00575798,S302627,AW2627 ,C,,1,1,0,0,0,1,20
+FRATM,Accounts Payable ,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,15/06/2017,CR00653965,DN00583056,SO00575798,S302627,AW2627 ,D4,No Collection Required,1,1,0,0,0,1,20
+FRSTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,14/06/2017,CR00653457,DN00582614,SO00575383,S301538,JS1538 ,FRBG,TAS BANKING BOOK,1,2,0,0,0,1,20
+FRSTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,14/06/2017,CR00653457,DN00582614,SO00575383,S301538,JS1538 ,A1,Credit re S/Order 574310 Date 02/06/17,1,1,0,0,0,1,20
+FRSTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,14/06/2017,CR00653457,DN00582614,SO00575383,S301538,JS1538 ,B11,Goods Not Received,1,1,0,0,0,1,20
+FRSTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,14/06/2017,CR00653457,DN00582614,SO00575383,S301538,JS1538 ,C,,1,1,0,0,0,1,20
+FRSTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,14/06/2017,CR00653457,DN00582614,SO00575383,S301538,JS1538 ,D4,No Collection Required,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00652847,DN00582271,SO00575042,S301074,TE1074 ,CARR,Carriage,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00652847,DN00582271,SO00575042,S301074,TE1074 ,HX318101,Safescan 7W UV Bank Note Checker,1,1,-11.92,-11.92,-2.38,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00652847,DN00582271,SO00575042,S301074,TE1074 ,A1,Credit re S/Order 574720 Date 06/06/17,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00652850,DN00582271,SO00575042,S301074,TE1074 ,A1,Credit re S/Order 574720 Date 06/06/17,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00652851,DN00582271,SO00575042,S301074,TE1074 ,A1,Credit re S/Order 574720 Date 06/06/17,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00653056,DN00582271,SO00575042,S301074,TE1074 ,CARR,Carriage,1,1,0,0,0,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00653056,DN00582271,SO00575042,S301074,TE1074 ,HX318101,Safescan 7W UV Bank Note Checker,1,1,-11.92,-11.92,-2.38,1,20
+FRTTM,Accounts Payable,Po Box 36 Worldwide House,Thorpe Wood,Peterborough,PE3 6SB,08/06/2017,CR00653056,DN00582271,SO00575042,S301074,TE1074 ,A1,Credit re S/Order 574720 Date 06/06/17,1,1,0,0,0,1,20
